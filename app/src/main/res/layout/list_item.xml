@@ -7,7 +7,7 @@
         android:background="@color/backgroundRed">
 
     <TextView
-            android:text="BBQ Crispy Checken"
+            android:text="@string/bbq_crispy_checken"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/titleTextView"
@@ -28,7 +28,7 @@
             android:layout_marginTop="64dp"
             android:fontFamily="sans-serif-black"/>
     <TextView
-            android:text="Fried Chicken, Smoked bacon"
+            android:text="@string/fried_chicken_smoked_bacon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/subtitleTextView"
@@ -45,7 +45,7 @@
             android:textStyle="bold"
             android:fontFamily="sans-serif-black"/>
     <TextView
-            android:text="$11"
+            android:text="@string/_11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
@@ -62,14 +62,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_chainStyle="packed"/>
 
-    <androidx.constraintlayout.widget.Guideline
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/guideline"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.55"/>
+
     <TextView
-            android:text=".5"
+            android:text="@string/_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView4"
@@ -89,7 +84,8 @@
             app:layout_constraintStart_toStartOf="@+id/guideline"
             android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            android:contentDescription="@string/burger"/>
     <ImageView
             android:layout_width="80dp"
             android:layout_height="50dp"
@@ -99,5 +95,13 @@
             android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
             app:layout_constraintTop_toTopOf="parent"
-    />
+            android:contentDescription="@string/_new"/>
+
+    <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guideline"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.55"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

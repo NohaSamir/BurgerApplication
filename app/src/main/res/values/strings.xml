@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Burger Application</string>
+    <string name="bbq_crispy_checken">BBQ Crispy Checken</string>
+    <string name="fried_chicken_smoked_bacon">Fried Chicken, Smoked bacon</string>
+    <string name="_11">$11</string>
+    <string name="_5">.5</string>
+    <string name="_new">new</string>
+    <string name="burger">burger</string>
 </resources>
