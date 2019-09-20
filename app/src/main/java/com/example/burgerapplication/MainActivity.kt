@@ -13,13 +13,13 @@ class MainActivity : AppCompatActivity() {
 
         recycler.adapter = ListAdapter()
 
-        //ToDo 3: Call animation function after view created
+        //Call animation function after view created
         animateListFromBottomToTop()
     }
 
 
     /**
-     * ToDo 2: set recycler animation with move list animation
+     * set recycler animation with move list animation
      */
     fun animateListFromBottomToTop()
     {
