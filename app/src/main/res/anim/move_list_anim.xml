@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--ToDo 1: Create translation animation to move list from bottom of screen to top of screen-->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fillAfter="true">
+
+    <translate
+        android:fromYDelta="100%p"
+        android:toYDelta="0%p" />
+</set>
