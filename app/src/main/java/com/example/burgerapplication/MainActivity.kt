@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         // load the animation
         val animMove = AnimationUtils.loadAnimation(
             applicationContext,
-            R.anim.move_list_anim
+            R.anim.move_from_bottom_to_top
         )
 
         //set recycler animation
