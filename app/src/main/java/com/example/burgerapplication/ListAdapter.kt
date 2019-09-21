@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.list_item.view.*
 
 /**
- * ToDo introduction
+ * List Adapter bind the list with the following animations
  * 1- Zoom text from 0 to actual size
  * 2- Animate text in a wavy way zigzag (Unimplemented)
  * 3- translate burger from bottom of the cell
@@ -78,7 +78,7 @@ class ListAdapter : RecyclerView.Adapter<ListAdapter.ListViewHolder>() {
         }
 
         /**
-         * ToDo 2 : Zoom Text
+         * Zoom Text views
          */
         private fun zoomText() {
             itemView.titleTextView.startAnimation(textZoomAnim)
@@ -88,7 +88,7 @@ class ListAdapter : RecyclerView.Adapter<ListAdapter.ListViewHolder>() {
         }
 
         /**
-         * ToDo 3 : Move burger Image from bottom to top
+         * Move burger Image from bottom to top
          * and after move burger image, we will start to move new image after delay 200ms
          * and on new image animation end, we start to zoom out then zoom in (fill after = false)
          *
