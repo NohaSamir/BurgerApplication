@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--ToDo 2.1 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <!--Step 1 : round top of rectangle-->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:valueFrom="M300,115H0V0c0,0,112.5,0,150,0s150,0,150,0V115z"
+        android:valueTo="M300,221H0V37.5c0,0,72.8-37.6,150-37.6s150,37.6,150,37.6V221z"
+        android:valueType="pathType" />
+
+    <!--Step 2 : convert top of rectangle to straight line-->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:valueFrom="M300,221H0V37.5c0,0,72.8-37.6,150-37.6s150,37.6,150,37.6V221z"
+        android:valueTo="M300,115H0V0c0,0,112.5,0,150,0s150,0,150,0V115z"
+        android:valueType="pathType" />
+</set>
+
+

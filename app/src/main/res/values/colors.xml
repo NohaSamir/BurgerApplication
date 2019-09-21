@@ -8,9 +8,9 @@
     <color name="textColorGray">#96ad82</color>
     <color name="textColorYellow">#ffe37a</color>
 
-    <color name="backgroundGreen">#416027</color>
+    <color name="backgroundGreen">#31481D</color>
     <color name="backgroundRed">#bc3e27</color>
-    <color name="backgroundRedDark">#95321F</color>
-    <color name="backgroundBrown">#5c3828</color>
-    <color name="backgroundTan">#d4b99d</color>
+    <color name="backgroundRedDark">#752819</color>
+    <color name="backgroundBrown">#40271C</color>
+    <color name="backgroundTan">#907E6B</color>
 </resources>
