@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     /**
      * set recycler animation with move list animation
      */
-    fun animateListFromBottomToTop()
+    private fun animateListFromBottomToTop()
     {
         // load the animation
         val animMove = AnimationUtils.loadAnimation(
